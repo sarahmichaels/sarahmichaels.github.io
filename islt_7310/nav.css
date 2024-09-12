@@ -1,0 +1,8 @@
+ul li { menu.JPG 
+    display: block;
+    border: 3px solid magenta;
+    width: 150px;
+    list-style-type: none;
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 5px;
+    }
