@@ -6,3 +6,8 @@ ul li { menu.JPG
     padding: 10px 10px 10px 25px;
     margin-bottom: 5px;
     }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
