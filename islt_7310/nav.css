@@ -7,7 +7,12 @@ ul li { menu.JPG
     margin-bottom: 5px;
     }
 
-    .dropdown {
+Menu2 {
         position: relative;
-        display: inline-block;
+        display: block;
+    border: 3px solid magenta;
+    width: 150px;
+    list-style-type: none;
+    padding: 10px 10px 10px 25px;
+    margin-bottom: 5px;
       }
