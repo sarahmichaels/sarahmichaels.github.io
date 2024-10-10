@@ -1,18 +1,46 @@
-ul li { menu.JPG 
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav>ul li {
+    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    color: darkmagenta;
+    }
+    nav ul li {
+    margin-bottom: 2px;
+    }
+    nav a {
+    text-decoration: none;
     display: block;
     border: 3px solid magenta;
-    width: 150px;
-    list-style-type: none;
     padding: 10px 10px 10px 25px;
-    margin-bottom: 5px;
     }
-
-Menu2 {
+    nav a:link{
+        background-color: white;
+        }
+        nav a:hover, nav a:focus {
+        background-color: cornsilk;
+        }
+        nav a:active{
+        background-color: aquamarine;
+        }
+        
+        
+        /*position sub-menu or drop-down*/
+        nav ul>li ul {
         position: relative;
+        margin-top: 0;
+        margin-left: 100%;
+        display: none;
+        }
+        
+        /*special hover to display the drop-down*/
+        nav>ul>li:hover>ul{
         display: block;
-    border: 3px solid magenta;
-    width: 150px;
-    list-style-type: none;
-    padding: 10px 10px 10px 25px;
-    margin-bottom: 5px;
-      }
+        }
