@@ -2,14 +2,13 @@
 
     font-family: Chewy; /*this is where we give our font a name so we can use it!*/
     
-    src: url("Chewy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
+    src: url('Chewy-Regular.ttf'); /*remember this is how we link to files in CSS!*/
     
     }
     
+    blockquote {font-family: Chewy, sans-serif;}
 
-
-.H1 {color: #130042
-font-family: Chewy}
+.H1 {color: #130042}
 .flex-container {
     display: flex;
     height: 200px;
