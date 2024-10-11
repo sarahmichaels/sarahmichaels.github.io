@@ -5,7 +5,13 @@
     src: url("Chewy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
     
     }
+.blockquote { 
 
+    font-family: Chewy; /*this is where we give our font a name so we can use it!*/
+    
+    
+    
+    }
 .H1 {color: #130042}
 .flex-container {
     display: flex;
