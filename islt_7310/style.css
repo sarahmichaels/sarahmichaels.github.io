@@ -1,1 +1,25 @@
 .H1 {color: #130042}
+.flex-container {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    
+  align-items: center;
+    flex-direction: row;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 15% 85% ;
+    gap: 10px;
+    background-color: #FAE0FF;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #FAE0FF;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    height: auto
+  }
