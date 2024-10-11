@@ -6,7 +6,7 @@
     
     }
     
- 
+    .blockquote {font-family: Chewy, Chewy-Regular; } 
 
 .H1 {color: #130042}
 .flex-container {
@@ -34,6 +34,7 @@
     height: auto
   }
 
+  .blockquote {font-family: Chewy, Chewy-Regular; }
 
   @media(min-width: 600px) {
   p{font-size: 1.25rem;}  
