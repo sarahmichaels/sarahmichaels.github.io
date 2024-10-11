@@ -52,4 +52,16 @@
   }
 
 
-
+@media print {
+* { background: transparent !important;
+color: #000 !important;
+box-shadow: none !important;
+text-shadow: none !important;}
+.main-nav,
+.sidebar,
+.comments,
+.main-footer {display: none;}
+.main-header {margin-bottom: 1";
+border: none;
+text-alighn: center;}
+}
