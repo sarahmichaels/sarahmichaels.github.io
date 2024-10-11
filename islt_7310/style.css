@@ -1,10 +1,7 @@
 @font-face { 
-
     font-family: Chewy; /*this is where we give our font a name so we can use it!*/
-    
-    src: url("Chewy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
-    
-    }
+        src: url("Chewy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
+        }
 
     
     
